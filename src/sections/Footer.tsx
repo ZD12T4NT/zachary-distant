@@ -22,11 +22,11 @@ export const Footer = () => {
       <div className='border-t border-white/15 py-6 text-sm flex flex-col md:flex-row md:justify-between items-center gap-8'>
         <div className='text-white/40'>&copy; 2024. All rights reserved.</div>
         <nav className='flex flex-col md:flex-row items-center gap-8'>
-          {footerLinks.map(link => (
+          {footerLinks.map((link) => (
             <a className='inline-flex items-center gap-1.5 cursor-pointer hover:text-white/40 transition duration-500 ease-in-out'  target='_blank' key={link.href} href={link.href}><span className='font-semibold'>{link.title}</span><ArrowUpRightIcon className="size-4"/></a>
           ))}
 
-          {footerLinksTwo.map(linkTwo => (
+          {footerLinksTwo.map((linkTwo) => (
             <a className='inline-flex items-center gap-1.5 cursor-pointer hover:text-white/40 transition duration-500 ease-in-out'  target='_blank' key={linkTwo.hrefTwo} href={linkTwo.hrefTwo}><span className='font-semibold'>{linkTwo.titleTwo}</span><ArrowUpRightIcon className="size-4"/></a>
           ))}
         </nav>
