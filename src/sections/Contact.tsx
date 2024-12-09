@@ -19,7 +19,7 @@ export const ContactSection = () => {
   </div>
   <div>
   {footerLinks.map(link => (
-  <a href={link.href} target="_blank" className='text-white bg-gray-900 hover:bg-white hover:text-gray-900 transition duration-500 ease-in-out inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border-gray-900'>
+  <a href={link.href} key={link.href} target="_blank" className='text-white bg-gray-900 hover:bg-white hover:text-gray-900 transition duration-500 ease-in-out inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border-gray-900'>
     <span className='font-semibold'>Contact Me</span>
     <ArrowUpRightIcon  className="size-4"/>
     </a>
