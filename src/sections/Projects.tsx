@@ -118,7 +118,7 @@ export const ProjectsSection = () => {
   
   return  <section className="pb-16 lg:py-24" id="projects">
     <div className="container">
-      <SectionHeader eyebrow="Real-World Results" title="Featured Projects" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo, saepe." />
+      <SectionHeader eyebrow="Real-World Results" title="Featured Projects" description="Live websites Ive built using HTML, CSS, & Javascript" />
    
     <div className=" flex flex-col mt-10 md:mt-20 gap-20">
       {portfolioProjects.map((project, projectIndex) => (
@@ -136,12 +136,12 @@ export const ProjectsSection = () => {
            <h3 className="font-serif text-2xl mt-2 md:mt-5 md:text-4xl">{project.title}</h3>
            <hr className="border-t-2 border-white/5 mt-4 md:mt-5"/>
            <ul className="flex flex-col gap-4 mt-4 md:mt-5">
-            {project.results.map((result) => (
+            {/* {project.results.map((result) => (
               <li key={project.title} className="flex gap-2 text-sm md:text-base text-white/50">
                 <CheckCircleIcon className="size-5 md:size-6"/>
                 <span >{result.title}</span>
               </li>
-            ))}
+            ))} */}
            </ul>
            <a href={project.link} key={project.link} target="_blank">
            <button className="bg-white hover:bg-gray-950 hover:text-white transition duration-500 ease-in-out text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8"><ArrowUpRight className="size-4 "/><span>Visit Live Site</span></button>
