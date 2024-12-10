@@ -71,7 +71,7 @@ export const HeroSection = () => {
   </div>
   <div className='max-w-lg mx-auto'>
   <h1 className='font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide'>Building Exceptional User Experiences</h1>
-  <p className='mt-4 text-center text-white/60 md:text-lg'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora rerum dolore distinctio laudantium corporis libero numquam aspernatur nobis quisquam optio!</p>
+  <p className='mt-4 text-center text-white/60 md:text-lg'>Hi, I’m a web developer specializing in creating responsive, user-friendly websites. Skilled in HTML, CSS, JavaScript and more., I’m passionate about crafting seamless digital experiences. Let’s build something great!</p>
   </div>
   <div className='flex flex-col md:flex-row justify-center items-center mt-8 gap-4'>
     <a href="#projects" className='inline-flex items-center gap-2 border border-white/15 hover:bg-white hover:text-gray-900 transition duration-500 ease-in-out px-6 h-12 rounded-xl'>
